@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pi/documents/cmake/tutorials/cmake-Test-Tutorial/cmake-master/Tests/Tutorial/Step1/TutorialConfig.h
+
+/home/pi/documents/cmake/tutorials/cmake-Test-Tutorial/cmake-master/Tests/Tutorial/Step1/tutorial.cxx
+TutorialConfig.h
+/home/pi/documents/cmake/tutorials/cmake-Test-Tutorial/cmake-master/Tests/Tutorial/Step1/TutorialConfig.h
+math.h
+-
+stdio.h
+-
+stdlib.h
+-
+

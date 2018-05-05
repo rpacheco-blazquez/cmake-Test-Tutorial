@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pi/documents/cmake/tutorials/cmake-Test-Tutorial/cmake-master/Tests/Tutorial/Step5/MathFunctions/MathFunctions.h
+
+/home/pi/documents/cmake/tutorials/cmake-Test-Tutorial/cmake-master/Tests/Tutorial/Step5/MathFunctions/Table.h
+
+/home/pi/documents/cmake/tutorials/cmake-Test-Tutorial/cmake-master/Tests/Tutorial/Step5/MathFunctions/mysqrt.cxx
+MathFunctions.h
+/home/pi/documents/cmake/tutorials/cmake-Test-Tutorial/cmake-master/Tests/Tutorial/Step5/MathFunctions/MathFunctions.h
+TutorialConfig.h
+/home/pi/documents/cmake/tutorials/cmake-Test-Tutorial/cmake-master/Tests/Tutorial/Step5/MathFunctions/TutorialConfig.h
+stdio.h
+-
+Table.h
+/home/pi/documents/cmake/tutorials/cmake-Test-Tutorial/cmake-master/Tests/Tutorial/Step5/MathFunctions/Table.h
+math.h
+-
+
+TutorialConfig.h
+

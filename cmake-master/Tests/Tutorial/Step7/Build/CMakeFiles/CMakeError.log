@@ -1,0 +1,50 @@
+Determining if the function log exists failed with the following output:
+Change Dir: /home/pi/documents/cmake/tutorials/cmake-Test-Tutorial/cmake-master/Tests/Tutorial/Step7/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_33fef/fast"
+/usr/bin/make -f CMakeFiles/cmTC_33fef.dir/build.make CMakeFiles/cmTC_33fef.dir/build
+make[1]: Entering directory '/home/pi/documents/cmake/tutorials/cmake-Test-Tutorial/cmake-master/Tests/Tutorial/Step7/Build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_33fef.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=log   -o CMakeFiles/cmTC_33fef.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.7/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘log’
+/usr/share/cmake-3.7/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS();
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_33fef
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_33fef.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=log    CMakeFiles/cmTC_33fef.dir/CheckFunctionExists.c.o  -o cmTC_33fef -rdynamic 
+CMakeFiles/cmTC_33fef.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `log'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_33fef.dir/build.make:97: recipe for target 'cmTC_33fef' failed
+make[1]: *** [cmTC_33fef] Error 1
+make[1]: Leaving directory '/home/pi/documents/cmake/tutorials/cmake-Test-Tutorial/cmake-master/Tests/Tutorial/Step7/Build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_33fef/fast' failed
+make: *** [cmTC_33fef/fast] Error 2
+
+
+Determining if the function exp exists failed with the following output:
+Change Dir: /home/pi/documents/cmake/tutorials/cmake-Test-Tutorial/cmake-master/Tests/Tutorial/Step7/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b3956/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b3956.dir/build.make CMakeFiles/cmTC_b3956.dir/build
+make[1]: Entering directory '/home/pi/documents/cmake/tutorials/cmake-Test-Tutorial/cmake-master/Tests/Tutorial/Step7/Build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b3956.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=exp   -o CMakeFiles/cmTC_b3956.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.7/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘exp’
+/usr/share/cmake-3.7/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS();
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_b3956
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3956.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=exp    CMakeFiles/cmTC_b3956.dir/CheckFunctionExists.c.o  -o cmTC_b3956 -rdynamic 
+CMakeFiles/cmTC_b3956.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `exp'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_b3956.dir/build.make:97: recipe for target 'cmTC_b3956' failed
+make[1]: *** [cmTC_b3956] Error 1
+make[1]: Leaving directory '/home/pi/documents/cmake/tutorials/cmake-Test-Tutorial/cmake-master/Tests/Tutorial/Step7/Build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b3956/fast' failed
+make: *** [cmTC_b3956/fast] Error 2
+
+

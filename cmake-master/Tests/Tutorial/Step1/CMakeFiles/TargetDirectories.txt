@@ -1,0 +1,3 @@
+/home/pi/documents/cmake/tutorials/cmake-Test-Tutorial/cmake-master/Tests/Tutorial/Step1/CMakeFiles/rebuild_cache.dir
+/home/pi/documents/cmake/tutorials/cmake-Test-Tutorial/cmake-master/Tests/Tutorial/Step1/CMakeFiles/edit_cache.dir
+/home/pi/documents/cmake/tutorials/cmake-Test-Tutorial/cmake-master/Tests/Tutorial/Step1/CMakeFiles/Tutorial.dir
